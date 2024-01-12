@@ -1,0 +1,41 @@
+.albumContainer {
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 340px;
+}
+
+.albumContainer p {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.albumContainer img {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.albumContainer button {
+    border-style: none;
+    position: absolute;
+    top: 1035px;
+
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(233, 231, 227);
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+.albumContainer a{
+    text-decoration: none;
+    color: black;
+}
+.albumContainer button:hover {
+    color: white;
+    background-color: deepskyblue;
+}

@@ -1,0 +1,12 @@
+.categoriesContainer{
+    margin-top: 40px;
+}
+.categoriesSubContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}

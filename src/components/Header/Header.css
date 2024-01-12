@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+}
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+    background-color:rgb(245, 245, 245);
+    height: 80px;
+}
+.HeaderName{
+    margin-left:5px ;
+}
+.HeaderImg{
+    display: flex;
+    align-items: center;
+}
+.HeaderSubContainer img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.AnchorContainer a{
+    text-decoration: none;
+    margin-left: 45px;
+}
+a:hover{
+    color: orange;
+}
+.loginX a{
+    text-decoration: none;
+}
+.loginStyle p{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 15px;
+}
+.loginStyle button{
+    border-style: none;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 43px;
+}
+.LogOutBtn{
+    border-style: none;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}

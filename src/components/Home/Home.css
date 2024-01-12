@@ -1,0 +1,33 @@
+.homeContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.homeContainer img {
+    border-radius: 10px;
+    width: 600px;
+}
+.homeContainer h1{
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.homeContainer p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.span{
+    color: rgb(0, 183, 255);
+
+}
+.button {
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}

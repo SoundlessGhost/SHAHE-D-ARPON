@@ -1,0 +1,39 @@
+.CQ-ANSContainer{
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40px;
+}
+.CQ-ANSContainer p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: lighter;
+}
+.CQ-ANSContainer h2{
+    font-style: italic;
+    font-weight: lighter;
+}
+.CQ-ANS{
+    border: 1px solid rgb(227, 227, 227);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 600px;
+    background-color: rgb(252, 252, 252);
+}
+.queen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+    margin-top: 0;
+}
+.queen h3 {
+    font-weight: lighter;
+    font-style: italic;
+}
+.queen img{
+    margin-bottom: 4px;
+    height: 40px;
+    width: 40px;
+}
